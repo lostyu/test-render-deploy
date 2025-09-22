@@ -3,11 +3,6 @@ services:
     name: learn-render-app
     env: node
     plan: free
-    buildCommand: npm run install-all && npm run build
+    buildCommand: echo "Build completed in Github Actions"
     startCommand: npm start
     autoDeploy: false
-    envVars:
-      - key: NODE_ENV
-        value: production
-      - key: PORT
-        value: 10000
