@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   app.innerHTML = `
     <div style="text-align: center; padding: 2rem;">
-      <h1>🎉 Hello Learn Render Deployment</h1>
+      <h1>🎉 Hello2 Learn Render Deployment</h1>
       <p>This is a simple full-stack app for learning GitHub Actions + Render</p>
       <button id="fetch-data" style="padding: 10px 20px; margin: 10px;">
         Call Backend API
