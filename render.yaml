@@ -3,6 +3,6 @@ services:
     name: learn-render-app
     env: node
     plan: free
-    buildCommand: echo "Build completed in Github Actions"
+    buildCommand: 'cd backend && npm install'
     startCommand: npm start
     autoDeploy: false
