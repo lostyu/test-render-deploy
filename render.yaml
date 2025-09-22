@@ -3,6 +3,6 @@ services:
     name: learn-render-app
     env: node
     plan: free
-    buildCommand: 'cd backend && npm install'
+    buildCommand: npm run install-all && npm run build
     startCommand: npm start
     autoDeploy: false
