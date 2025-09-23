@@ -9,19 +9,19 @@ jobs:
   test-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '20'
+      # - uses: actions/checkout@v4
+      # - uses: actions/setup-node@v4
+      #   with:
+      #     node-version: '20'
 
-      - name: Install dependencies
-        run: npm run install-all
+      # - name: Install dependencies
+      #   run: npm run install-all
 
-      - name: Build application
-        run: npm run build
+      # - name: Build application
+      #   run: npm run build
 
-      - name: Show dir
-        run: ls -l
+      # - name: Show dir
+      #   run: ls -l
 
       - name: Deploy to Render
         uses: johnbeynon/render-deploy-action@v0.0.8
