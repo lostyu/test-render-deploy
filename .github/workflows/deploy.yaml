@@ -20,6 +20,9 @@ jobs:
       - name: Build application
         run: npm run build
 
+      - name: Show dir
+        run: ls -l
+
       - name: Deploy to Render
         uses: johnbeynon/render-deploy-action@v0.0.8
         with:
